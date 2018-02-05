@@ -10,6 +10,11 @@ ByteCompile: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.0.1
 Imports: 
-    magrittr
+    magrittr,
+    httr,
+    glue,
+    xml2,
+    tibble,
+    dplyr
 Suggests: 
     testthat
