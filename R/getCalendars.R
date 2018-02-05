@@ -1,5 +1,4 @@
-
-#' getCalendars
+#' get a tidy tibble listing the available Calendars on acalog
 #'
 #'
 #' @return
