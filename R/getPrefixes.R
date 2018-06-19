@@ -1,4 +1,9 @@
-
+#' getPrefixes allows you to retrieve a list of course prefixes within a single calendar
+#'
+#' @param calendar_id integer.  Calendar to select
+#'
+#' @return tibble of calendar_id (dbl) and course_prefix (chr)
+#' @export
 getPrefixes <- function(calendar_id) {
 
   content <- api_call("getPrefixes") %>%
